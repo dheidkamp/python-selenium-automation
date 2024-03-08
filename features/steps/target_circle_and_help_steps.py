@@ -5,6 +5,7 @@ from time import sleep
 BENEFIT_BOX_LINKS = (By.CSS_SELECTOR, "li[class*='styles__BenefitCard']")
 HELP_PAGE_UI_LINKS = (By.CSS_SELECTOR, "")
 
+
 @given('Open Target Circle page')
 def open_target_circle_page(context):
     context.driver.get("https://www.target.com/circle")
